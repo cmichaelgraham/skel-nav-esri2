@@ -31,6 +31,7 @@
     "aurelia-history": "aurelia/history#latest",
     "aurelia-http-client": "aurelia/http-client#latest",
     "aurelia-loader": "aurelia/loader#latest",
+    "aurelia-loader-default": "aurelia/loader-default#latest",
     "aurelia-logging-console": "aurelia/logging-console#latest",
     "aurelia-router": "aurelia/router#latest",
     "aurelia-templating-binding": "aurelia/templating-binding#latest",

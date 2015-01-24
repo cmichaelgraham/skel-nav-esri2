@@ -56,7 +56,7 @@
                 { name: "views", location: package_path + "/views" },
                 { name: "aurelia-bootstrapper", location: package_path + "/bower_components/aurelia-bootstrapper/dist/amd", main: "index" },
                 { name: "aurelia-loader", location: package_path + "/bower_components/aurelia-loader/dist/amd", main: "index" },
-                { name: "aurelia-loader-systemjs", location: package_path + "/bower_components/aurelia-loader-systemjs/dist/amd", main: "index" },
+                { name: "aurelia-loader-default", location: package_path + "/bower_components/aurelia-loader-default/dist/amd", main: "index" },
                 { name: "aurelia-binding", location: package_path + "/bower_components/aurelia-binding/dist/amd", main: "index" },
                 { name: "aurelia-dependency-injection", location: package_path + "/bower_components/aurelia-dependency-injection/dist/amd", main: "index" },
                 { name: "aurelia-event-aggregator", location: package_path + "/bower_components/aurelia-event-aggregator/dist/amd", main: "index" },
@@ -78,7 +78,6 @@
                 { name: "aurelia-templating-resources", location: package_path + "/bower_components/aurelia-templating-resources/dist/amd", main: "index" },
                 { name: "aurelia-templating-router", location: package_path + "/bower_components/aurelia-templating-router/dist/amd", main: "index" },
                 { name: "core-js", location: package_path + "/bower_components/core-js", main: "index" },
-                { name: "q", location: package_path + "/bower_components/q", main: "q" },
                 { name: "webcomponents", location: package_path + "/bower_components/webcomponentsjs", main: "webcomponents" },
                 { name: "application", location: package_path + '/js' },
                 { name: "x", location: pathdir + "/x" },
@@ -92,8 +91,13 @@
 </head>
 
 <body aurelia-app="views/app">
+    <div class="splash">
+        <div class="message">Aurelia Navigation Skeleton</div>
+        <i class="fa fa-spinner fa-spin"></i>
+    </div>
+
     <script>
-        require(["core-js", "aurelia-bootstrapper"], function (corejs, bootstrapper) { });
+        require(["core-js", "aurelia-bootstrapper"], function(corejs, bootstrapper) {});
     </script>
 </body>
 </html>
