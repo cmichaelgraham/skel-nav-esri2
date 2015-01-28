@@ -1,4 +1,4 @@
-# skel-nav-esri2
+# [skel-nav-esri2](https://github.com/cmichaelgraham/skel-nav-esri2)
 recreation of the ESRI Aurelia integration project built and run from Visual Studio.
 
 ## get the project running
@@ -13,3 +13,11 @@ recreation of the ESRI Aurelia integration project built and run from Visual Stu
 * [dojo require setup - index.html](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/index.html#L55-L86)
 * [bower.json](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/bower.json#L26-L43)
 * [esri + dojo CDN reference](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/index.html#L90)
+
+## typescript definition and view models
+* [aurelia.d.ts](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/typings/aurelia/aurelia.d.ts)
+* [app.ts](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/views/app.ts)
+* [nav-bar.ts](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/views/nav-bar.ts)
+* [welcome.ts](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/views/welcome.ts)
+* [flickr.ts](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/views/flickr.ts)
+* [child-router.ts](https://github.com/cmichaelgraham/skel-nav-esri2/blob/master/views/child-router.ts)
