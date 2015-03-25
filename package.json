@@ -1,0 +1,7 @@
+{
+  "jspm": {
+    "dependencies": {
+      "templating": "github:aurelia/templating@^0.8.6"
+    }
+  }
+}
